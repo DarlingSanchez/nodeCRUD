@@ -1,0 +1,23 @@
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 3,
+    "nombre": "Garcia"
+}
+
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+DELETE http://localhost:9000/api/2 HTTP/1.1
+
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{    
+    "nombre": "Darling"
+}
